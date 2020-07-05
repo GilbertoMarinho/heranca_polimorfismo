@@ -13,8 +13,6 @@ public class ContaPoupanca extends Conta {
 		this.taxaJuro = taxaJuro;
 	}
 
-	
-	
 
 	public Double getTaxaJuro() {
 		return taxaJuro;
@@ -29,6 +27,7 @@ public class ContaPoupanca extends Conta {
 	public void atualizarSaldo() {
 		saldo += saldo * taxaJuro;
 	}
+	
 	
 	
 	

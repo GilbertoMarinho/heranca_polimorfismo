@@ -1,7 +1,7 @@
 package entidades;
 
 public class Conta {
-	//membros private não podem ser acessados em sublcasses
+	//membros private não podem ser acessados em outas classes, inclusive sublcasses
 	private Integer numero;
 	private String titular;
 	//utilizamos protected para que o membro possa ser acessado em subclasses de outros pacotes
