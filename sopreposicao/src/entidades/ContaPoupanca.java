@@ -28,6 +28,14 @@ public class ContaPoupanca extends Conta {
 		saldo += saldo * taxaJuro;
 	}
 	
+	/*utilizamos a palabvra reservada @Override
+	para indicar ao compilador que estamos sobrepondo um método da classe pai*/
+	@Override
+	public void sacar(Double valor) {
+		// metódo sacar para a classe ContaPoupanca
+		saldo -= valor;
+	}
+	
 	
 	
 	
